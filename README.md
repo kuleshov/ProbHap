@@ -65,7 +65,7 @@ reads to blocks. Before performing phasing, `ProbHap` does a merging
 and filtering step on the reads; the filtered reads are saved in `chr22.probhap.reads`.
 
 Kuleshov (2014) also describes a post-processing heurstic on the phased blocks that typically
-results in a noticeable improvement in performance. To apply this post-processing, type:
+results in a noticeable improvement in performance. To apply this post-processing step, type:
 
 ```
 python probhap.py \
@@ -86,3 +86,7 @@ To run the experiments, type:
 make run
 make other
 ```
+
+## Feedback
+
+Please send comments and bug reports to `kuleshov@stanford.edu`.
