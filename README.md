@@ -41,7 +41,7 @@ The second file contains the true phase of NA12878 determined by trio phasing.
 ### Requirements
 
 Probhap requires numpy and scipy-weave to run. During the first run, it will compile some inline
-C code using Weave. If these package are not on your system, install them using `pip` or `easy-install`.
+C code using Weave. If these packages are not on your system, install them using `pip` or `easy-install`.
 
 ## Running Probhap
 
@@ -49,11 +49,11 @@ Probhap takes as input a set of long reads in the same format as Probhap.
 See the paper by Duitama et al. (2010) and the documentation of the algorithm
 RefHap for more details.
 
-To run the algorithm, type:
+To run Probhap, type:
 
 ```
 python probhap.py \
-  --reads chr22.matrix.SORTED \
+  --reads data/input/chr22.matrix.SORTED \
   --parsed-reads chr22.probhap.reads \
   --phase chr22.probhap.out \
   --assignments chr22.probhap.assignments
@@ -61,12 +61,11 @@ python probhap.py \
 
 This will take the reads in `chr22.matrix.SORTED` and produce phased blocks `chr22.probhap.out`
 in the same format as that of RefHap as well as `chr22.probhap.assignments`, which assigns
-reads to their parent of origin. Before performing phasing, `ProbHap` performs a merging
-and filtering step on the reads; the filtered reads (which are used for phasing) are found in
-`chr22.probhap.reads`.
+reads to blocks. Before performing phasing, `ProbHap` does a merging
+and filtering step on the reads; the filtered reads are saved in `chr22.probhap.reads`.
 
 Kuleshov (2014) also describes a post-processing heurstic on the phased blocks that typically
-results in a noticeable improvement in performance. To use apply this step, type:
+results in a noticeable improvement in performance. To apply this post-processing, type:
 
 ```
 python probhap.py \
@@ -78,11 +77,11 @@ python probhap.py \
 
 ## Reproducing experiments
 
-To reproduce the experiments of Kuleshov (2014), use the script in the experiments folder.
+To reproduce the experiments of Kuleshov (2014), use the script in the `/experiments` folder.
 This requires first downloading the RefHap and MixSIH packages and setting their paths
 in the `Makefile`. Also, make sure that you downloaded the sample data to `/data`.
 
-To execute the experiments, type:
+To run the experiments, type:
 ```
 make run
 make other
