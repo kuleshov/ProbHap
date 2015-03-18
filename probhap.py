@@ -43,7 +43,7 @@ out_file.close()
 
 assignments = open(args.assignments, 'w')
 assignments.write("")
-assignments.close
+assignments.close()
 
 print "Phasing blocks..."
 
