@@ -45,7 +45,7 @@ C code using Weave. If these packages are not on your system, install them using
 
 ## Running Probhap
 
-Probhap takes as input a set of long reads in the same format as Probhap.
+Probhap takes as input a set of long reads in the same format as RefHap.
 See the paper by Duitama et al. (2010) and the documentation of the algorithm
 RefHap for more details.
 
