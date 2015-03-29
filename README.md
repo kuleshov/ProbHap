@@ -68,7 +68,7 @@ Kuleshov (2014) also describes a post-processing heurstic on the phased blocks t
 results in a noticeable improvement in performance. To apply this post-processing step, type:
 
 ```
-python probhap.py \
+python probhap-postprocess.py \
   --filtered-reads chr22.probhap.reads \
   --assignments chr22.probhap.assignments
   --blocks chr22.probhap.out \
