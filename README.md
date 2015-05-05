@@ -89,4 +89,4 @@ make other
 
 ## Feedback
 
-Please send comments and bug reports to `kuleshov@stanford.edu`.
+Please send comments and bug reports to [Volodymyr Kuleshov](http://www.stanford.edu/~kuleshov).
