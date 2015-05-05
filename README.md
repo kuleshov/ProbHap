@@ -45,7 +45,7 @@ C code using Weave. If these packages are not on your system, install them using
 
 ## Running Probhap
 
-Probhap takes as input a set of long reads in the same format as Probhap.
+Probhap takes as input a set of long reads in the same format as RefHap.
 See the paper by Duitama et al. (2010) and the documentation of the algorithm
 RefHap for more details.
 
@@ -68,7 +68,7 @@ Kuleshov (2014) also describes a post-processing heurstic on the phased blocks t
 results in a noticeable improvement in performance. To apply this post-processing step, type:
 
 ```
-python probhap.py \
+python probhap-postprocess.py \
   --filtered-reads chr22.probhap.reads \
   --assignments chr22.probhap.assignments
   --blocks chr22.probhap.out \
