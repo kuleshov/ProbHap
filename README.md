@@ -14,7 +14,7 @@ are improved accuracy and an assessment of confidence through probability scores
 An early version of Probhap was also used with the Moleculo genome phasing technology introduced in:
 
 ```
-V. Kuleshov et al., Probabilistic single-individual haplotyping, Nature biotechnology (2014) 32 (3), 261.
+V. Kuleshov et al., Whole-genome haplotyping using long reads and statistical methods, Nature biotechnology (2014) 32 (3), 261.
 ```
 
 ## Installation
