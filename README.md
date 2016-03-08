@@ -11,6 +11,12 @@ V. Kuleshov, Probabilistic single-individual haplotyping, Bioinformatics (2014) 
 Probhap works best with very long reads at a relatively shallow coverage (<= 12X). Its advantages
 are improved accuracy and an assessment of confidence through probability scores.
 
+An early version of Probhap was also used with the Moleculo genome phasing technology introduced in:
+
+```
+V. Kuleshov et al., Probabilistic single-individual haplotyping, Nature biotechnology (2014) 32 (3), 261.
+```
+
 ## Installation
 
 To install Probhap, clone the git repo and make sure the folder is in your `PYTHONPATH`:
