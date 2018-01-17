@@ -7,7 +7,7 @@ from libprism.common.math import logsumexp
 
 import numpy as np
 
-from scipy.weave import inline, converters
+from weave import inline, converters
 from libprism.local.prepare import verify_complexity, blocks_from_clouds, contigs_from_clouds
 
 class HMM(object):
