@@ -29,20 +29,18 @@ export PYTHONPATH="`pwd`:$PYTHONPATH"
 
 ### Sample data
 
-To download the data used for evaluating Probhap in the 2014
-ECCB/Bioinformatics paper, type:
+The data used for evaluating Probhap in the 2014
+ECCB/Bioinformatics paper is provided in folder `data`. To unzip them type:
 
 ```
-wget http://www.stanford.edu/~kuleshov/probhap/phasing-matrices.tar.gz
-wget http://www.stanford.edu/~kuleshov/probhap/validation.tar.gz
-
-tar -zxvf phasing-matrices.tar.gz
-tar -zxvf validation.tar.gz
+unzip phasing-matrices.zip
+unzip validation.zip
 ```
 
 The first file contains phasing matrices derived from fosmid reads in the paper
 of Duitama et al. (2010).
 The second file contains the true phase of NA12878 determined by trio phasing.
+
 
 ### Requirements
 
@@ -95,4 +93,4 @@ make other
 
 ## Feedback
 
-Please send comments and bug reports to [Volodymyr Kuleshov](http://www.stanford.edu/~kuleshov).
+Please send comments and bug reports to [Volodymyr Kuleshov](https://ai.stanford.edu/~kuleshov/).
