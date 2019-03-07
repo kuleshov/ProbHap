@@ -1,15 +1,12 @@
 Probhap evaluation data
 =======================
 
-To download the data used for evaluating Probhap in the 2014
+To unzip the data used for evaluating Probhap in the 2014
 ECCB/Bioinformatics paper, type:
 
 ```
-wget http://www.stanford.edu/~kuleshov/probhap/phasing-matrices.tar.gz
-wget http://www.stanford.edu/~kuleshov/probhap/validation.tar.gz
-
-tar -zxvf phasing-matrices.tar.gz
-tar -zxvf validation.tar.gz
+unzip phasing-matrices.zip
+unzip validation.zip
 ```
 
 The first file contains phasing matrices derived from fosmid reads in the paper
